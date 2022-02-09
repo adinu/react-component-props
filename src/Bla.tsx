@@ -13,7 +13,7 @@ export function Button(props: ButtonProps) {
 }
 
 // usage
-function Bla() {
+export default function Bla() {
   // Type '"foo"' is not assignable to type '"button" | "submit" | "reset" | undefined'.(2322)
   // return <Button type="foo"> sldkj </Button>
 
